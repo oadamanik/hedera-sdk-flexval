@@ -1,0 +1,10 @@
+# IDEA
+.idea/
+*.iml
+
+# Local environment variables
+.env
+
+# Vim
+
+# Maven
