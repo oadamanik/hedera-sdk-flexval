@@ -7,7 +7,7 @@ public class transaction {
     AccountId senderId;
     AccountId recipientId;
     Client client;
-    long amount; //100_000_000 tinibars equals to 1 Hbar
+    long amount; //100_000_000 tiny Hbars equals to 1 Hbar
     String memo;
 
     public void sendHbar(AccountId senderId, AccountId recipientId, Client client, long amount, String memo) throws HederaStatusException {
@@ -42,5 +42,6 @@ public class transaction {
         System.out.println("" + senderId + " balance = " + senderBalanceAfter);
         System.out.println("" + recipientId + " balance = " + receiptBalanceAfter);
         System.out.println("Transfer memo: " + record.transactionMemo);
+
     }
 }

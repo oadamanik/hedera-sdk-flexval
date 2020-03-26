@@ -6,5 +6,6 @@
 .env
 
 # Vim
-
+measurement.csv
 # Maven
+target/
